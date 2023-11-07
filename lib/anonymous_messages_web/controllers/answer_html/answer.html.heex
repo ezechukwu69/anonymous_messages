@@ -1,0 +1,10 @@
+<div>
+  <p class="text-3xl text-orange-500"><%= @object.description %></p>
+  <div class="border border-gray-100 rounded-lg p-3 py-8 mt-4">
+    <p class="text-gray-500 font-medium text-lg">Write your answer</p>
+    <.simple_form for={@answer} method="post" action={~p"/answer/#{@object.id}"}>
+      <.input field={@answer[:answer]} type="textarea" label="Answer" />
+      <.button class="mt-2" type="submit">Submit answer</.button>
+    </.simple_form>
+  </div>
+</div>
