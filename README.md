@@ -1,4 +1,5 @@
 # AnonymousMessages
+Anonymous Messages is a webpage that allows you send and receive anonymous messages on topics that interests you *(Built with Phoenix (Elixir))*.
 
 To start your Phoenix server:
 
